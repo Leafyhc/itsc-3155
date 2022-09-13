@@ -1,0 +1,13 @@
+/*Exercise 6 stylesheet*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+#main-title{
+    text-align: center;
+}
+
+.content{
+    margin-bottom: 12px;
+}

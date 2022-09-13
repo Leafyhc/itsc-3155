@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercise7</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <button id="my-button">Click Me</button>
+
+        <script>
+            //declare a variable called myButton which selected with id "my-button"
+            var myButton = document.querySelector('#my-button');
+            //declare a variable called myButton which selected with id "name-input"
+            var nameInput = document.querySelector('#name-input');
+            //add the event listener with action click, when ever the button myButton clicked triger the funciton
+            myButton.addEventListener('click', function () {
+            //if the input in the nameInput not empty display an alert said the Hellow + nameInput
+            if (nameInput.value !== '') {
+                alert('Hello ' + nameInput.value);
+            }
+            });
+        </script>
+    </body>
+</html>
